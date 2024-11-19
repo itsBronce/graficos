@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario con Gráfico</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Nicolax Luciano <br> Formulario de Ventas</h1>
+    <form id="salesForm">
+      <input type="text" id="month" name="month" placeholder="Mes">
+      
+      <input type="number" id="sales" name="sales" placeholder="Ventas">
+      
+      <button type="button" id="addData">Agregar Datos</button>
+      
+      <button id="resetData">Resetear</button>
+
+    </form>
+    <div class="chart-container">
+      <canvas id="salesChart"></canvas>
+    </div>
+  </div>
+  
+  <script src="js/chart.umd.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

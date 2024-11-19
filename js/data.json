@@ -1,0 +1,8 @@
+{
+    "data": [
+      { "month": "Enero", "sales": 2000 },
+      { "month": "Febrero", "sales": 1200 },
+      { "month": "Marzo", "sales": 1500 }
+    ]
+  }
+  
